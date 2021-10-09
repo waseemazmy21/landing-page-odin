@@ -1,0 +1,228 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+/* header styles */
+.hero{
+    background-color: #1f2937;
+	padding-top: 1rem;
+	padding-bottom: 10rem;
+}
+
+
+nav{
+	max-width: 75%;
+	margin: 0 auto 7rem auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.logo{
+    font-size: 1.5rem;
+    color: #f9faf8;
+}
+
+.hero ul{
+	display: flex;
+	gap: 1rem;
+}
+
+
+.link{
+	font-size: 18px;
+	color: #e5e7eb;
+	text-decoration: none;
+}
+
+.hero-bottom{
+	max-width: 75%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.hero-left{
+	max-width: 500px;
+}
+
+.hero h1{
+    color: #f9faf8;
+    font-size: 3rem;
+	font-weight: bolder;
+	max-width: 350px;
+	margin-bottom: 1rem;
+}
+.hero p{
+	color: #e5e7eb;
+	line-height: 1.5;
+	margin-bottom: 1rem;
+}
+
+.btn{
+	color: #fff;
+	padding: .5rem 1.5rem;
+	font-weight: bold;
+	border-radius: .5rem;
+}
+
+.hero-btn{
+	background-color: #3882f6;
+	border: none;
+}
+
+/* info style */
+
+.info{
+	text-align: center;
+	padding: 3rem 0 6rem 0;
+}
+
+.info h2{
+	font-size: 36px;
+	color: #1f2937;
+	font-weight: bolder;
+	margin-bottom: 3rem;
+}
+
+.cards{
+	margin: 0 auto;
+	max-width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card{
+	max-width: 200px;
+}
+
+.card .img{
+    display: block;
+	width: 200px;
+	height: 200px;
+	border-radius: .5rem;
+	border: 2px solid #3882f6;
+	margin-bottom: 1rem;
+}
+
+/* quote styles */
+
+.quote-section{
+	background-color: #e5e7eb;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+}
+
+blockquote{
+	width: 50%;
+	margin: 0 auto;
+}
+
+blockquote p{
+	font-size: 36px;
+	font-weight: 100;
+	color: #1f2937;
+	font-style: italic;
+	line-height: 1.5;
+
+}
+
+blockquote cite{
+	display: block;
+	text-align: right;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #000;
+	margin-top: 1rem;
+
+}
+
+/* call to action styles */
+
+.sign-up-section{
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+}
+
+.sign-up-card{
+	width: 75%;
+	margin: 0 auto;
+	background-color: #3882f6;
+	color: #fff;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	border-radius: 1rem;
+}
+.sign-up-card h3{
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.sign-up-card button{
+	background-color: transparent;
+	border: 1px solid #fff;
+	align-self: flex-end;
+}
+
+/* footer styles */
+
+footer{
+	background-color: #1f2937;
+	padding: 2rem;
+	text-align: center;
+}
+
+footer p{
+	color: #fff;
+}
